@@ -11,12 +11,12 @@ export const CONFIG = {
   SUPABASE_ANON_KEY: "",  // the long "anon public" key (safe to publish)
 
   INSTITUTE_NAME: "IFPI",
-  INSTITUTE_TAGLINE: "NISM & Stock Market Courses",
+  INSTITUTE_TAGLINE: "Institute of Financial Planning & Investment",
   COUNTRY_CODE: "91",     // added to 10-digit mobile numbers for WhatsApp
   CURRENCY: "INR",
 
   STAGES: ["New", "Contacted", "Interested", "Demo Scheduled", "Demo Attended", "Fee Discussion", "Enrolled", "Lost"],
-  SOURCES: ["Website", "WhatsApp", "Instagram", "Facebook", "YouTube", "Google Ads", "Meta Ads", "Walk-in", "Referral", "Seminar", "Other"],
+  SOURCES: ["Website", "Google Search", "Instagram", "Facebook", "YouTube", "WhatsApp", "Referral", "Google Ads", "Meta Ads", "Walk-in", "Webinar", "Seminar", "Other"],
   LOST_REASONS: ["Fees too high", "Joined elsewhere", "Not reachable", "Timing not suitable", "Only exploring", "Other"],
   PAYMENT_MODES: ["UPI", "Cash", "Card", "Bank transfer", "EMI", "Cheque"],
 };

@@ -188,10 +188,10 @@ function seed() {
     ["NISM-XV", "NISM Series XV: Research Analyst", "NISM Certification"],
     ["NISM-X-A", "NISM Series X-A: Investment Adviser (Level 1)", "NISM Certification"],
     ["NISM-X-B", "NISM Series X-B: Investment Adviser (Level 2)", "NISM Certification"],
-    ["NISM-VII", "NISM Series VII: Securities Operations and Risk Management", "NISM Certification"],
-    ["SMF", "Stock Market Fundamentals", "Stock Market"],
-    ["TA", "Technical Analysis", "Stock Market"],
-    ["OPT", "Options Trading Strategies", "Stock Market"],
+    ["NISM-VII", "NISM Series VII: Securities Operations & Risk Management", "NISM Certification"],
+    ["FPI", "Financial Planning & Investment", "Wealth Management"],
+    ["TA", "Technical Analysis Masterclass", "Trading"],
+    ["OPT", "Options & Derivatives Programme", "Trading"],
   ];
   const fees = [4500, 6500, 12000, 9000, 9000, 5500, 7500, 15000, 18000];
   const courses = courseRows.map(([code, name, category], i) => ({ id: uid(), code, name, category, fee: fees[i], duration: "4 weeks", mode: "Online + Offline", active: true, created_at: iso(new Date()) }));
