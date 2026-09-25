@@ -1,7 +1,7 @@
 import { state, onChange, isAdmin, saveRow, removeRow, courseShort, course } from "../state.js";
 import { esc, options, money, fmtDate, openModal, closeModal, confirmBox, toast, fail, formData } from "../ui.js";
 
-const CATEGORIES = ["NISM Certification", "Stock Market", "Mutual Funds", "Derivatives", "Other"];
+const CATEGORIES = ["NISM Certification", "Global Certification", "Foundation", "Investment", "Trading", "Wealth Management", "Research & Advisory", "Other"];
 const BATCH_STATUS = ["Upcoming", "Running", "Completed", "Cancelled"];
 
 export function render(root) {
